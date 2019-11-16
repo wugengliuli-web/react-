@@ -1,0 +1,66 @@
+.listMain {
+	width: 20rem;
+	display: flex;
+
+	.left {
+		flex: 0.2;
+		ul {
+			width: 100%;
+			box-sizing: border-box;
+			border-left: 1px solid #ddd;
+
+			li {
+				height: 46px;
+				text-align: center;
+				line-height: 46px;
+				font-size: 14px;
+				background-color: #f8f8f8;
+				color: #333;
+			}
+			.active {
+				color: #e93b3d;
+				background-color: #fff;
+			}
+		}
+
+	}
+
+	.right {
+		flex: 0.8;
+		.title {
+			font-size: 14px;
+			height: 25px;
+			margin-top: 20px;
+			margin-left: 10px;
+		}
+		ul {
+			width: 100%;
+
+			li {
+				float: left;
+				width: 32.8%;
+				text-align: center;
+				img {
+					width: 70px;
+					height: 70px;
+					background-size: 100% 100%;
+				}
+				span {
+					display: block;
+					text-align: center;
+					width: 100%;
+					height: 35px;
+					color: #333;
+					margin-top: 2px;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
+
+.shelter {
+	width: 20rem;
+	background-color: #fff;
+	height: 2.5rem;
+}

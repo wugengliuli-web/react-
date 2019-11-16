@@ -1,0 +1,87 @@
+.ListWrapper {
+	z-index: 6;
+	width: 20rem;
+	overflow: hidden;
+	height: 180px;
+	position: relative;
+	margin-top: -0.8rem;
+	background: linear-gradient(#ffdfe0, #fff);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	.list {
+		width: 40rem;
+		height: 90%;
+		display: flex;
+		position: absolute;
+		left: 0;
+		transition: all 0.3s;
+
+		.left,
+		.right {
+			flex: 1;
+
+			ul {
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+
+				a {
+					color: #000;
+					li {
+						text-align: center;
+						float: left;
+						width: 20%;
+						height: 50%;
+
+						img {
+							width: 44px;
+							height: 44px;
+							margin-top: .6rem;
+						}
+
+						span {
+							display: block;
+							text-align: center;
+							width: 100%;
+							font-size: 12px;
+							margin-top: .3rem;
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	.on {
+		left: -20rem;
+	}
+
+	.btn {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 10%;
+		width: 20rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		span {
+			width: 5px;
+			height: 5px;
+			background-color: rgba(0, 0, 0, .2);
+			border-radius: 50%;
+			margin: 0 3px;
+			transition: all 0.3s;
+		}
+
+		.active {
+			background-color: #e93b3d;
+			width: 10px;
+			height: 5px;
+			border-radius: 7px;
+		}
+	}
+}

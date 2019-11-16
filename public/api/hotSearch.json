@@ -1,0 +1,22 @@
+[{
+	"name": "加湿器",
+	"isHOT": false
+}, {
+	"name": "移动路由器",
+	"isHOT": true
+}, {
+	"name": "豆浆机",
+	"isHOT": false
+}, {
+	"name": "厨房消毒柜",
+	"isHOT": true
+}, {
+	"name": "玻璃白板",
+	"isHOT": false
+}, {
+	"name": "移动书架",
+	"isHOT": true
+}, {
+	"name": "洗面奶",
+	"isHOT": false
+}]

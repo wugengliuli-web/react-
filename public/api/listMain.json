@@ -1,0 +1,49 @@
+[{
+	"name": "热门推荐",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "手机数码",
+	"getJsonUrl": "./api/listMain/phone.json"
+}, {
+	"name": "家用电器",
+	"getJsonUrl": "./api/listMain/electric.json"
+}, {
+	"name": "电脑办公",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "计生情趣",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "美妆护肤",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "个护清洁",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "汽车生活",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "京东超市",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "男装",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "男鞋",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "女装",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "女鞋",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "母婴童装",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "图书音像",
+	"getJsonUrl": "./api/listMain/hot.json"
+}, {
+	"name": "运动户外",
+	"getJsonUrl": "./api/listMain/hot.json"
+}]

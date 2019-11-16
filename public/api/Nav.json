@@ -1,0 +1,21 @@
+[{
+	"name": "首页",
+	"icon": "&#xe6d3;",
+	"Link": "/"
+}, {
+	"name": "分类",
+	"icon": "&#xe684;",
+	"Link": "/sort"
+}, {
+	"name": "9.9元拼",
+	"icon": "&#xe6ae;",
+	"Link": "/"
+}, {
+	"name": "购物车",
+	"icon": "&#xe707;",
+	"Link": "/shopping"
+}, {
+	"name": "未登录",
+	"icon": "&#xe63f;",
+	"Link": "/users"
+}]
